@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Signika+Negative:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Pangolin', cursive; */
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  /* height: 7rem; */
+}
+
+.navbar-brand.me-auto {
+  margin-left: 0.5rem;
+}
+
+.nav-link.mx-lg-2,
+.navbar-brand.me-auto,
+.offcanvas-title {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.nav-link.mx-lg-2:hover,
+.navbar-brand.me-auto:hover {
+  color: rgb(124, 152, 156);
+}
+
+.nav-item {
+  color: black;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: rgb(25, 190, 219);
+  visibility: hidden;
+  transition: 0.6s ease-in-out;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+  visibility: visible;
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.6s ease-in-out;
+}
+
+.navbar-toggler-icon {
+  font-size: 1.25rem;
+}
+
+.offcanvas.offcanvas-end {
+  background-color: rgb(255, 255, 255);
+}
+
+.login-button {
+  background-color: rgb(8, 151, 32);
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  transition: 0.3s background-color;
+}
+
+.login-button:hover {
+  background-color: rgb(14, 110, 54);
+}
