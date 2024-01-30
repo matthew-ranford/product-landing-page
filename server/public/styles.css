@@ -6,6 +6,7 @@
   box-sizing: border-box;
   /* font-family: 'Pangolin', cursive; */
   font-family: 'Signika Negative', sans-serif;
+  background-color: bisque;
 }
 
 /* NAVBAR STYLING */
@@ -113,7 +114,7 @@ button.navbar-toggler {
     url('./main-unsplash.jpg') no-repeat center;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
 } */
 
 section {
