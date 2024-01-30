@@ -12,8 +12,19 @@
 
 /* .navbar {
   background-color: rgb(255, 255, 255);
-  height: 7rem;
+  height: 5rem;
+  margin: 20px;
+  border-radius: 16px;
+  padding: 0.5rem;
 } */
+
+.img-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
+  /* object-fit: contain; */
+}
 
 .navbar-brand.me-auto {
   margin-left: 0.5rem;
@@ -64,7 +75,7 @@
 }
 
 .navbar-toggler-icon {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .offcanvas.offcanvas-end {
@@ -86,11 +97,25 @@
   background-color: rgb(14, 110, 54);
 }
 
+button.navbar-toggler {
+  color: transparent;
+  border: none;
+}
+
 /* HERO STYLING */
 
-.hero-section {
-  background: url('./hero-unsplash.jpg') no-repeat center;
+/* .hero-section {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 10%,
+      rgba(0, 0, 0, 0.7) 70%
+    ),
+    url('./main-unsplash.jpg') no-repeat center;
   background-size: cover;
   width: 100%;
   height: 100vh;
+} */
+
+section {
+  padding: 5rem 0;
 }

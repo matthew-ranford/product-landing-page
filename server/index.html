@@ -11,12 +11,18 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </head>
   <body>
     <!-- Navbar start -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand me-auto" href="#">Logo</a>
+        <a class="navbar-brand me-auto" href="#"
+          ><img
+            class="img-logo"
+            src="./product-logo-m.jpg"
+            alt="Website logo M"
+        /></a>
         <div
           class="offcanvas offcanvas-end"
           tabindex="-1"
@@ -24,7 +30,13 @@
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img
+                class="img-logo"
+                src="./product-logo-m.jpg"
+                alt="Website logo M"
+              />
+            </h5>
             <button
               type="button"
               class="btn-close"
@@ -63,14 +75,36 @@
           aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <box-icon name="menu-alt-right" color="#000000"></box-icon>
         </button>
       </div>
     </nav>
     <!-- Navbar end -->
 
     <!-- Hero start -->
-    <section class="hero-section"></section>
+    <section class="hero-section" id="intro">
+      <div class="container-lg mt-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 text-center text-md-start">
+            <h1>
+              <div class="display-2">Prod. Page</div>
+              <div class="display-5 text-muted">Testing Bootstrap</div>
+            </h1>
+            <p class="lead my-4 text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="#pricing" class="btn btn-primary btn-lg">Buy Now!</a>
+          </div>
+          <div class="col-md-5 text-center d-none d-md-block">
+            <img
+              class="img-fluid"
+              src="./matt-laptop.png"
+              alt="Laptop with photo of Matt"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Hero end -->
 
     <script
