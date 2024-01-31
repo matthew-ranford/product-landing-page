@@ -20,8 +20,9 @@
 } */
 
 .img-logo {
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
+  margin-right: 0.5rem;
   border-radius: 50%;
   box-shadow: 1px 1px 5px rgb(0, 0, 0);
   /* object-fit: contain; */
@@ -35,13 +36,13 @@
 .navbar-brand.me-auto,
 .offcanvas-title {
   color: rgb(0, 0, 0);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
 .nav-link.mx-lg-2:hover,
 .navbar-brand.me-auto:hover {
-  color: rgb(124, 152, 156);
+  color: rgb(25, 190, 219);
 }
 
 .nav-item {
