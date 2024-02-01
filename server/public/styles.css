@@ -8,6 +8,12 @@
   font-family: 'Signika Negative', sans-serif;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
 /* NAVBAR STYLING */
 
 .navbar {
