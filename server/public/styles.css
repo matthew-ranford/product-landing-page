@@ -6,18 +6,17 @@
   box-sizing: border-box;
   /* font-family: 'Pangolin', cursive; */
   font-family: 'Signika Negative', sans-serif;
-  background-color: lightblue;
 }
 
 /* NAVBAR STYLING */
 
-/* .navbar {
-  background-color: rgba(138, 123, 123, 0.7);
+.navbar {
+  background-color: #eee9de;
   height: 5rem;
   margin: 20px;
   border-radius: 16px;
   padding: 0.5rem;
-} */
+}
 
 .img-logo {
   height: 45px;
