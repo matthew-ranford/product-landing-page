@@ -121,6 +121,12 @@ button.navbar-toggler {
   height: 70vh;
 }
 
+@media (max-width: 1370px) {
+  .hero-section {
+    height: 90vh;
+  }
+}
+
 @media (max-width: 750px) {
   .hero-section {
     height: auto;

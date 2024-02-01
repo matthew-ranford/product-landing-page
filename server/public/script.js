@@ -7,3 +7,8 @@ window.addEventListener('load', () => {
     spinnerWrapper.style.display = 'none'
   }, 200)
 })
+
+const tooltips = document.querySelectorAll('.tt')
+tooltips.forEach((t) => {
+  new bootstrap.Tooltip(t)
+})
